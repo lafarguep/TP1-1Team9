@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vinotecalaepicura</title>
+    <link rel="icon" href= "/img_proyect/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>        
+        <nav>
+            <h1>VINOTECA<br>La Epicura</h1>            
+            <a href="index.html" class="navbarLink" > Home </a>
+            <a href="about.html" class="navbarLink"> Quienes somos </a>
+            <a href="contacto.html" class="navbarLink"> Contacto </a>
+            <a href="sucursales.html" class="navbarLink">Sucursales</a>
+            <!--<a href="registrate.html" class="navbarLink">Registrate</a> -->
+            <a href="formulario.html" class="navbarLink">Formulario</a>  
+        </nav>        
+    </header>
+    <main>
+        <div class="bg">
+            <h1>VINOTECA<br>La Epicura <br><br>«El vino siembra poesía en los corazones.»</h1><br>
+            
+        </div>
+        <br>
+        <div>
+           <p>Vendemos vinos.
+            Una amplia y a la vez selecta colección de vinos premium.
+            Nos gusta lo que hacemos.
+            Comenzamos itinerando por bodegas argentinas, a lo largo y ancho del país. 
+            Descubrimos secretos, hablamos con expertos, con bodegueros, con sommeliers.
+            Nos atrevimos a probar vinos nuevos, a maridarlos con gastronomía local y con platos
+            regionales.
+            Y por fin, decidimos contarles a un grupo de amigos, lo que habíamos aprendido y cuánto 
+            nos faltaba aprender todavía, y nuestros amigos respondieron, acompañándonos, apoyándonos,
+            embarcándose en este viaje que no termina, y al que se suman cada día más amigos.
+            Bienvenido a nuesra casa.
+
+           </p>
+        </div>
+
+    </main>
+    <footer>
+        <p style="text-align: center;"> <b>Todos los derechos reservados @2022</b> </p> <br>   
+    </footer>
+</body>
+<script type="text/javascript">
+    window.addEventListener("scroll",
+        ()=>{
+            let header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0)
+        }
+    )
+</script>
+</html>
